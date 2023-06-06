@@ -1,0 +1,17 @@
+git init
+git remote add origin https://github.com/facuvillar27/20230605-FacundoVillar.git
+touch comandos.txt main.js index.html
+git branch -M main
+git add .
+git commit -m "commit 01 de FacundoVilar"
+git push origin main
+git branch feature
+git checkout feature
+mkdir Hardware Software SeguridadInformatica && touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+git add .
+git commit -m "commit 02 de FacundoVillar"
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt
+mv index.html resumenSoftware.txt
+history
